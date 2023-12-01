@@ -210,7 +210,7 @@ footer nav{
 .banner{
 	width:100%;
 	height:250px;
-	background-image: url(../assets/img/background.jpg);
+	background-image: url(../img/background.jpg);
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -426,7 +426,7 @@ color:#1F1717;
 /*Kontakt START*/
 
 #contact{
-	background-image: url(../assets/img/putovanje.jpeg);
+	background-image: url(../img/putovanje.jpeg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
