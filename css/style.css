@@ -1,9 +1,9 @@
+/* GENERAL */
 *{
 	margin:0px;
 	padding:0px;
 	box-sizing: border-box;
 }
-/* GENERAL */
 body{
 	font-family: 'Ubuntu', sans-serif;
 	color:#1F1717;
@@ -62,10 +62,9 @@ header nav{
 
 .wrapper{
 	width:70%;
-	margin:0px auto;
-	
-	
+	margin:0px auto;	
 }
+
 footer{
 	background-color:#1F1717;
 	color:#FCF5ED;
@@ -78,31 +77,38 @@ footer{
 	margin-top: 100px;
 	bottom: 0;
 }
+
 .footer-social{
+	width: 30%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
+
 .footer-contact{
 	display: flex;
+	width: 30%;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
 }
+
 .footer-contact a, .footer-contact h5{
-	width: 100%;
 	font-size: 20px;
 }
+
 footer i{
 	font-size:18px;
 	color:#F4BF96;
 	margin-top:20px;
 }
+
 footer a{
 	text-decoration:none;
 	color:#FEFAE0
 }
+
 .footer-social-list{
 	list-style:none;
 	display:flex;
@@ -115,28 +121,39 @@ footer a{
 	font-size: 30px;
 
 }
+
 .footer-social h5{
 	font-size: 23px;
 }
+
 .footer-navigation{
+	width: 30%;
 	display:flex;
 	justify-content: space-between;
 	flex-direction: column;
+	align-items: center;
 }
+
 footer nav{
 	display:flex;
 	flex-direction: column;
 	gap:10px;
 }
+
 .footer-navigation nav a{
 	color:#FEFAE0;
 	font-size: 23px;
-
 }
+
+.footer-navigation nav a:hover{
+	text-decoration: underline;
+}
+
 .copyright{
 	width:100%;
 	text-align: center;
 }
+
 .contact h5{
 	font-size: 25px;
 }
@@ -157,6 +174,7 @@ footer nav{
 		width:100%;
 	}
 }
+
 .main{
 	display:flex;
 	justify-content:center;
@@ -165,6 +183,7 @@ footer nav{
 	margin-top: 20px;
 	flex-wrap:wrap;
 }
+
 .splitting-layout{
 	display: flex;
 	text-align: center;
@@ -174,6 +193,7 @@ footer nav{
 	height:400px;
 	width:50%
 }
+
 .text-holder{
 	width:50%;
 	display: flex;
@@ -184,6 +204,7 @@ footer nav{
 	
 	
 }
+
 /* GENERAL END */
 /* POCETNA START */
 .banner{
@@ -197,6 +218,7 @@ footer nav{
 	justify-content:center;
 	flex-direction:column;
 }
+
 #banner-text{
 	background-color: rgba(254, 250, 224, 0.5);
 	width:50%;
@@ -209,6 +231,7 @@ footer nav{
 	font-size:40px;
 	
 }
+
 #banner-text hgroup{
 color:#1F1717;
 }
@@ -235,6 +258,7 @@ color:#1F1717;
 	font-size:50px;
 	text-shadow: 2.5px 2.5px 2.5px #CE5A67;
 }
+
 .figure-special{
 	text-align:center;
 	margin-bottom:20px;
@@ -244,12 +268,12 @@ color:#1F1717;
 	perspective: 1000px;
 	display: inline-block;
 }
+
 .figure-special figure{
 	width:100%;
 	height: 100%;
-	
-
 }
+
 .figure-special figure img{
 	width:100%;
 	height: 100%;
@@ -262,6 +286,7 @@ color:#1F1717;
 .figure-special:hover figure img {
 	transform: rotateY(180deg);
 }
+
 .figure-special:hover .back {
 	transform: rotateY(360deg);
 }
@@ -289,10 +314,12 @@ color:#1F1717;
 	font-size: 25px;
 	text-shadow: 1px 1px 1px #CE5A67;
 }
+
 .back p{
 	font-size: 25px;
 	color:#1F1717
 }
+
 .back li{
 	font-size: 21px;
 	color:#FEFAE0;
@@ -301,44 +328,39 @@ color:#1F1717;
 	margin:5px;
 	padding:5px;
 	text-shadow: 1px 1px 1px #1F1717;
-
 }
-
-.back a{
-	font-size: 20px;
-	color:#CE5A67;
-	text-decoration:none;
-
-}
-
 
 .special-vacation{
 	background-color: #F4BF96;
 	width:100%;
 	margin-top:40px;
-	
 }
-
 
 .bali{
 	width:100%;
 	height:100%;
 }
+
 .text-holder p{
 	font-size: 15px;
 	font-weight:bold;
 	width:70%;
 	margin:0 auto;
 }
+
 .text-holder h5{
 	font-size: 25px;
 }
 
-article a{
+.reserve{
 	text-decoration: none;
 	font-size: 20px;
 	color:#CE5A67;
 }
+.reserve:hover{
+	text-decoration: underline;
+}
+
 .comments{
 	display:flex;
 	justify-content: space-evenly;
@@ -358,6 +380,7 @@ article a{
 	padding:20px;
 
 }
+
 .stars{
 	display: flex;
 	justify-content: center;
@@ -365,7 +388,6 @@ article a{
 	margin:auto;
 	margin-top:20px;
 }
-
 
 .round-icon{
 	display: flex;
@@ -377,23 +399,23 @@ article a{
 	align-self: center;
 	margin-top: 10px;
 }
+
 .round-icon i{
 	font-size:40px;
-	display: flex;
-	justify-content: center;
 	align-self: center;
 }
 
 .comments h5{
 	text-align:center;
 	margin-top: 10px;
-	align-self: center;
 }
+
 .comment-text{
 	text-align: center;
 	font-size: 18px;
 	margin-bottom: 15px;
 }
+
 .comment-destination{
 	margin-bottom: 30px;
 	font-size: 20px;
@@ -411,91 +433,58 @@ article a{
 	margin: 0px;
 
 }
-  .formular {
+.formular {
 	background-color: #F4BF96;
 	padding: 20px;
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	width: 40%;
-  }
-  
-  .formular h2 {
+}
+
+.formular h2 {
 	margin-bottom: 20px;
 	text-align: center;
 	color:#FCF5ED;
 	width: 100%;
 	text-shadow: 1px 1px 1px #1F1717;
-  }
+ }
   
-  .formular-group {
+.formular-group {
 	width: 48%;
 	margin-bottom: 15px;
-  }
+}
   
-  .formular-group-email{
+.formular-group-email{
 	width: 100%;
 	margin-bottom: 15px;
-  }
-  .formular-putovanje{
-	width: 100%;
-    padding: 8px;
-	border-radius: 10px;
-	border-width: 1px; 
-	border-style: solid;
-	border-color: rgb(204, 204, 204);
-	border-image: initial;
-  }
+}
 
-  label {
+.formular label {
 	display: block;
 	margin-bottom: 5px;
-  }
+}
 
-  .form{
+.form{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-  }
-.formular-ime{
-	width: 100%;
-	padding: 8px;
-	border-radius: 10px;
-	border: 1px solid #ccc;
-}
-.formular-prezime{
-	width:100%;
-	padding: 8px;
-	border-radius: 10px;
-	border: 1px solid #ccc;
 }
 
-.formular-email{
-	width: 100%;
-	padding: 8px;
-	border-radius: 10px;
-	border: 1px solid #ccc;
-}
-
-.formular-telefon{
-	width: 100%;
-	padding: 8px;
-	border-radius: 10px;
-	border: 1px solid #ccc;
-}
-.formular-people{
-	width: 100%;
-	padding: 8px;
-	border-radius: 10px;
-	border: 1px solid #ccc;
-}
-.formular-sobe{
+.formular-input{
 	width: 100%;
 	padding: 8px;
 	border-radius: 10px;
 	border: 1px solid #ccc;
 }
   
-  button {
+.formular-group-button{
+	width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+
+.formular-group-button button {
 	padding: 10px 20px;
 	background-color: #FCF5ED;
 	color: #CE5A67;
@@ -504,37 +493,29 @@ article a{
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 	width: 30%;
-  }
-  .formular-group-button{
-	width: 100%;
-	margin-bottom: 15px;
-	text-align: center;
-  }
-  button:hover {
+}
+
+.formular-group-button button:hover {
 	border:1px solid #1F1717;
-  }
-  .room-kind-select{
-	width: 100%;
-    padding: 8px;
-	border-radius: 10px;
-	border-width: 1px; 
-	border-style: solid;
-	border-color: rgb(204, 204, 204);
-	border-image: initial;
-  }
+}
 
-  /*Kontakt END*/
-  /*O autoru start*/
+/*Kontakt END*/
+/*O autoru start*/
+#author-body{
+	background-color: #F4BF96
+}
 
-  #author-img{
+#author-img{
 	display:flex;
 	width:50%;
-  }
-  #author-img img{
+}
+
+#author-img img{
 	height:620px;
 	border-radius: 20px;
 }
-  #author-text{
+
+#author-text{
 	display:flex;
 	flex-direction: column;
 	width:50%;
@@ -543,43 +524,45 @@ article a{
 	font-size:32px;
 	text-align: center;
 	text-shadow: 1px 1px 1px #F4BF96;
-	
-  }
-  #author-body{
-	background-color: #F4BF96
-  }
-  #author-text p:last-child{
+}
+
+#author-text p:last-child{
 	margin-top:27px;
 	align-self: center;
-  }
-  #author-block{
+}
+
+#author-block{
 	display: flex;
 	justify-content: space-between;
 	background-color: #aaaaaa;
 	border-radius: 25px;
 	box-shadow:inset 0px 0px 20px 0px #1f1717;
-  }
-  .color{
+}
+
+.color{
 	color:#FCF5ED
-  }
-  #about-author{
+}
+
+#about-author{
 	margin-top:20px;
 	text-align: center;
 	text-shadow: 1px 1px 1px #F4BF96;
 	font-size: 50px;
-  }
+	width: 100%;
+}
 
-  /*O autoru end*/
-  /*O nama START*/
+/*O autoru end*/
+/*O nama START*/
+#o-nama-body{
+	background-color: #F4BF96;
+}
 
 .o-nama-info{
 	width:100%;
 	background-color: #FCF5ED;
 	margin-top: 50px;
 }
-#o-nama-body{
-	background-color: #F4BF96;
-}
+
 .workers-img{
 	width:100%;
 	height:100%;
@@ -592,20 +575,21 @@ article a{
 	width:100%;
 	height:700px;
 }
+
 .icon-holder{
 	display: flex;
 	justify-content: center;
 	border-radius:50%;
 	height:200px;
 	width:200px;
-	align-self: center;
 	margin:0 auto;
 }
+
 .employee{
-	margin: 0 auto;
 	border-radius:30px;
 
 }
+
 .worker{
 	width:350px;
 	border-radius: 30px;
@@ -613,50 +597,54 @@ article a{
 	padding:20px;
 	
 }
+
 .worker-description{
 	color:#1F1717;
 	font-size:30px;
 	margin-top: 10px;
 }
+
 .worker-description h5{
 	display: flex;
 	justify-content: center;
-	
 }
+
 .worker-comment p{
 	color:#1F1717;
 	font-size: 20px;
 	margin-top:40px;
-
 }
+
 .lokacija{
 	width:800px;
 	margin:150px auto 0;
 }
+
 .lokacija iframe{
 	width:900px;
 	height:500px;
 	border-radius: 20px;
-	align-self: center;
 }
+
 .lokacija h3{
 	text-align: center;
 	margin-bottom: 30px;
 	font-size: 30px;
 }
+
 .lokacija address{
 	font-size:20px;
 	font-weight: bold;
 }
-  /*O nama END*/
+/*O nama END*/
+/*Ponude START*/
 
-  /*Ponude START*/
-
-  .offers{
+.offers{
 	display: flex;
 	flex-direction: column;
-  }
-  .offer{
+}
+
+.offer{
 	display: flex;
 	justify-content: space-between;
 	width:100%;
@@ -665,83 +653,91 @@ article a{
 	padding:20px;
 	border-radius: 20px;
 	flex-wrap: wrap;
-  }
+}
 
-  .offer-img{
+.offer-img{
 	width:50%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
 	margin-bottom: 20px;
 	margin-top:20px;
-  }
-  .offer-img img{
+}
+
+.offer-img img{
 	width:60%;
 	border-radius: 25px;
-  }
-  .offer-table{
+	display: block;
+	margin: 0 auto;
+}
+
+.offer-table{
 	width:50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	margin-top:20px;
 
-  }
-  table {
+}
+
+.offer-table table {
 	border-collapse:collapse;
 	width: 80%;
 	height:80%;
 	margin: 20px auto;
 	color:#F4BF96;
 	border-radius: 20px;
+}
 
-
-  }
-    
-  th {
-	background-color: #FCF5ED;
-
-  }
-  th:first-of-type{
-	 border-top-left-radius:25px;
-
-  }
-  th, td {
-	border: 1px solid #F4BF96	;
-	padding: 8px;
-	text-align: center;
-	
-
-  }
-th:last-of-type{
+.offer-table tbody{
+	background-color:#1F1717 ;
 	border-top-right-radius: 25px;
 }
-tr:last-of-type td:first-of-type{
+    
+.offer-table th {
+	background-color: #FCF5ED;
+
+}
+
+.offer-table th:first-of-type{
+	 border-top-left-radius:25px;
+
+}
+
+.offer-table th, td {
+	border: 1px solid #F4BF96	;
+	padding: 8px;
+	text-align: center;	
+}
+
+.offer-table th:last-of-type{
+	border-top-right-radius: 25px;
+}
+
+.offer-table tr:last-of-type td:first-of-type{
 	border-bottom-left-radius: 25px;
 }
-tr:last-of-type td:last-of-type{
+
+.offer-table tr:last-of-type td:last-of-type{
 	border-bottom-right-radius: 25px;
 }
 
-  tbody{
-	background-color:#1F1717 ;
-	border-top-right-radius: 25px;
-  }
+
 #our-offers{
 	text-align: center;
 	margin-top: 50px;
 }
+
 .stars-offer{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
+
 .offer p{
 	width:50%;
 	margin:0 auto;
 	font-size: 20px;
 	padding:20px;
 }
+
 .offer h3{
 	margin:0 auto;
 	padding:20px;
@@ -751,31 +747,36 @@ tr:last-of-type td:last-of-type{
 }
 
 
-  /*Ponude END*/
+/*Ponude END*/
   
- /*galerija start*/
-  #galerija{
+/*galerija start*/
+#galerija{
 	background-color: #F4BF96;
-  }
-  #gallery{
-	width:100%;
+}
+
+.gallery{
 	display: flex;
 	flex-direction: column;
-  }
-  #h1-galerija{
+}
+
+#h1-galerija{
+	width: 100%;
+	text-align: center;
 	margin-bottom: 30px;
-  }
-  .gallery-row{
+}
+
+.gallery-row{
 	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom: 30px;
-  }
-  #gallery img:hover{
-	transform:scale(1.2)
-  }
+}
 
-  .gallery-row img{
+.gallery img:hover{
+	transform:scale(1.2)
+}
+
+.gallery-row img{
 	width:48%;
 	border-radius: 25px;
 	transition: transform .1s;
