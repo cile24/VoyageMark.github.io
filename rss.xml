@@ -2,17 +2,17 @@
 <rss version="2.0">
 <channel>
 <title>Bitne informacije</title>
-<link></link>
+<link>https://cile24.github.io/VoyageMark.github.io/index.html</link>
 <description>Ovde pišu bitne informacije</description>
 <item>
 <title>O putovanjima</title>
-<link></link>
-<description></description>
+<link>https://cile24.github.io/VoyageMark.github.io/ponude.html</link>
+<description>Ovde se nalaze ponude!</description>
 </item>
 <item>
 <title>Galerija</title>
-<link></link>
-<description>Ovde piše više o putovanjima</description>
+<link>https://cile24.github.io/VoyageMark.github.io/galerija.html</link>
+<description>Ovde možete videti slike!</description>
 </item>
 </channel>
 </rss>
