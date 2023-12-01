@@ -1,0 +1,18 @@
+<!DOCTYPE xml>
+<rss version="2.0">
+<channel>
+<title>Bitne informacije</title>
+<link></link>
+<description>Ovde pišu bitne informacije</description>
+<item>
+<title>O putovanjima</title>
+<link></link>
+<description></description>
+</item>
+<item>
+<title>Galerija</title>
+<link></link>
+<description>Ovde piše više o putovanjima</description>
+</item>
+</channel>
+</rss>
